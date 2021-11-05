@@ -1,0 +1,17 @@
+@media all and (max-width: 700px) {
+   .menu-icon{
+        display: block;
+        color:black;
+        width: 100px;
+    }
+    .list-bar a {
+        display: none;
+    }
+    footer {
+        text-align: left;
+    }
+    .work h1 {
+        align-items: center;
+        font-size: 10px;
+    }
+}
