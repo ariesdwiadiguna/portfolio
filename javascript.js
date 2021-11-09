@@ -1,25 +1,3 @@
-//let isDarkMode= false//
-//const findHomestyle=document.body.style//
-
-//function gantiWarna() {//
- //   if(isDarkMode==true) {//
-     //   setToLightMode()
-   // }else {
-//        setToDarkMode()
- //   }
-//    isDarkMode=!isDarkMode
-//}//
-
-//function setToDarkMode () {
-    //findHomestyle.backgroundColor ="#000000"
-   // findHomestyle.color = "#ffffff"
-//}//
-
-//function setToLightMode () {
-   // findHomestyle.backgroundColor ="#ffffff"
-   // findHomestyle.color = "#000000"
-//}//
-
 function gantiWarna() {
     var element = document.body;
     var btn = document.getElementById("tombol");
@@ -30,5 +8,17 @@ function gantiWarna() {
       btn.innerHTML = '<i class="uil uil-moon"></i>'
     }
  }
+
+ 
+   
+function openNav() {
+   document.getElementById("mySidenav").style.width = "250px";
+ }
+ 
+ 
+ function closeNav() {
+   document.getElementById("mySidenav").style.width = "0";
+ }
+ 
 
 
