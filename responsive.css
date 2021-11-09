@@ -1,72 +1,3 @@
-@media all and (max-width: 670px) {
-    .menu-icon{
-         display: block !important;
-         color:black;
-         float: left;
-         cursor: pointer;
-         margin-left: 15px;
-         margin-top: 10px;
-     }
-     
-     .list-menu a {
-         display:none;
-         float:left;
-         font-size: 17px;
-         clear:both;
-         background-color: aqua;
-     }
-
-     .headline {
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        margin: 0px;
-        padding-top: 80px;
-     }
-     .home .headline h1 {
-         margin:0px 10px;
-         text-align: center;
-         font-size: 30px;
-         padding-bottom: 40px;
-     }
-     .home .headline p {
-         text-align: justify;
-     }
-     @keyframes img {
-        from {top: 0px; }
-        to {top: 100px;}
-     }
-     .work h1 {
-         justify-content: center;
-         align-items: center;
-         text-align: center;
-         font-size: 50px;
-     }
-     .work-section h{
-         font-size:18px;
-     }
-
-     .education h1 {
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        font-size: 50px;
-     }
-     .contact h1 {
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        font-size: 50px;
-     }
-     .footer {
-         flex-direction: column;
-     }
-   
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-  
- }
-
  @media all and (max-width: 768px) {
     .menu-icon{
          display: block !important;
@@ -136,5 +67,71 @@
    
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
-  
+ }
+
+ @media all and (max-width: 698px) {
+    .menu-icon{
+         display: block !important;
+         color:black;
+         float: left;
+         cursor: pointer;
+         margin-left: 15px;
+         margin-top: 10px;
+     }
+     
+     .list-menu a {
+         display:none;
+         float:left;
+         font-size: 17px;
+         clear:both;
+     }
+
+     .headline {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0px;
+        padding-top: 80px;
+     }
+     .home .headline h1 {
+         margin:0px 10px;
+         text-align: center;
+         font-size: 30px;
+         padding-bottom: 40px;
+     }
+     .home .headline p {
+         text-align: justify;
+     }
+     @keyframes img {
+        from {top: 0px; }
+        to {top: 100px;}
+     }
+     .work h1 {
+         justify-content: center;
+         align-items: center;
+         text-align: center;
+         font-size: 50px;
+     }
+     .work-section h{
+         font-size:18px;
+     }
+
+     .education h1 {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 50px;
+     }
+     .contact h1 {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 50px;
+     }
+     .footer {
+         flex-direction: column;
+     }
+   
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;} 
  }
