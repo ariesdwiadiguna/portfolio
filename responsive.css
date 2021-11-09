@@ -1,4 +1,4 @@
- /* @media all and (max-width: 768px) {
+@media all and (max-width: 670px) {
     .menu-icon{
          display: block !important;
          color:black;
@@ -13,77 +13,7 @@
          float:left;
          font-size: 17px;
          clear:both;
-     }
-
-     .headline {
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        margin: 0px;
-        padding-top: 150px;
-     }
-     .home .headline h1 {
-         margin:0px 10px;
-         text-align: center;
-         font-size: 60px;
-         padding-bottom: 40px;
-     }
-     .home .headline h2 {
-         font-size: 40px;
-     }
-     .home .headline p {
-         text-align: left;
-         font-size:25px;
-     }
-     @keyframes img {
-        from {top: 0px; }
-        to {top: 100px;}
-     }
-     .work h1 {
-         justify-content: center;
-         align-items: center;
-         text-align: center;
-         font-size: 70px;
-     }
-     .work-section h{
-         font-size:30px;
-     }
-
-     .education h1 {
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        font-size: 70px;
-     }
-     .contact h1 {
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        font-size: 70px;
-     }
-     .footer {
-         flex-direction: column;
-     }
-   
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
- } */
-
- @media all and (max-width: 670px) {
-    .menu-icon{
-         display: block !important;
-         color:black;
-         float: left;
-         cursor: pointer;
-         margin-left: 15px;
-         margin-top: 10px;
-     }
-     
-     .list-menu a {
-         display:none;
-         float:left;
-         font-size: 17px;
-         clear:both;
+         background-color: aqua;
      }
 
      .headline {
@@ -133,5 +63,5 @@
      }
    
     .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;} 
+    .sidenav a {font-size: 18px;}
  }
