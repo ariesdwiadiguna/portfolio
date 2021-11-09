@@ -1,17 +1,53 @@
-@media all and (max-width: 700px) {
-   .menu-icon{
-        display: block;
-        color:black;
-        width: 100px;
-    }
-    .list-bar a {
-        display: none;
-    }
-    footer {
-        text-align: left;
-    }
-    .work h1 {
+@media all and (max-width: 670px) {
+    .menu-icon{
+         display: block !important;
+         color:black;
+         float: left;
+         cursor: pointer;
+         margin-left: 15px;
+         margin-top: 10px;
+     }
+     
+     .list-menu a {
+         display:none;
+         float:left;
+         font-size: 17px;
+         clear:both;
+         background-color: aqua;
+     }
+
+     .headline {
+        justify-content: center;
         align-items: center;
-        font-size: 10px;
-    }
-}
+        text-align: center;
+     }
+     .work h1 {
+         justify-content: center;
+         align-items: center;
+         text-align: center;
+         font-size: 50px;
+     }
+     .work-section h{
+         font-size:20px;
+     }
+
+     .education h1 {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 50px;
+     }
+     .contact h1 {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 50px;
+     }
+     .footer {
+         flex-direction: column;
+     }
+   
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  
+ }

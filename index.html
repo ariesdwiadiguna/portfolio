@@ -5,14 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ARIES</title>
-    <link rel="stylesheet" href="responsive.css">
     <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="/responsive.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 </head>
 <body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#1">Home</a>
+        <a href="#2">Work Experiences</a>
+        <a href="#3">Education</a>
+        <a href="#4">Contact Me</a>
+      </div>
     <div class="header">
-        <span class="fa fa-bars menu-icon"></span>
+        <span onclick="openNav()" class="fa fa-bars menu-icon" style= font-size:30px;></span>
         <div class="list-bar">
         <ul class="list-menu">
             <li class="list-item">
@@ -30,7 +37,7 @@
         </ul>
         </div>
         <div class="btn-darkmode">
-            <button id="tombol" style="cursor:pointer;black; margin-right:10px; margin-top:13px;display:flex;font-size: 30px; background: none; border: none;" onclick="gantiWarna()"><i class="uil uil-moon"></i></button>
+            <button id="tombol" style="cursor:pointer; margin-right:10px; margin-top:13px;display:flex;font-size: 30px; background: none; border: none;" onclick="gantiWarna()"><i class="uil uil-moon"></i></button>
         </div>
     </div>
     <div class="container" id="container">     
@@ -48,7 +55,7 @@
         </div>
         <!-- work experience -->
         <div class="work" id ="2">
-            <h1>Work Experience</h1>
+            <h1>Work Experiences</h1>
             <div class="work-section">
                 <div class="col">
                     <h>PT. Sugeng Jaya Farm Oktober 2018-2020</h>
